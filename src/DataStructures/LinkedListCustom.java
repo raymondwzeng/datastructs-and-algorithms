@@ -60,9 +60,10 @@ public class LinkedListCustom {
     {
         String output = "";
         Node thisNode = this.head;
-        while(thisNode.nextNode != null)
+        while(thisNode != null)
         {
-            output += thisNode.getValue();
+            output += thisNode.getValue() + " ";
+            thisNode = thisNode.nextNode;
         }
         return output;
     }
