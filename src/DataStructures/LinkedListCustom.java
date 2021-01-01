@@ -68,3 +68,12 @@ public class LinkedListCustom {
         return output;
     }
 }
+
+/*
+Test Code
+      LinkedListCustom myLL = new LinkedListCustom();
+        myLL.addNode(5);
+        myLL.addNode(10);
+        System.out.println(myLL);
+        System.out.println("Hello world!");
+*/
