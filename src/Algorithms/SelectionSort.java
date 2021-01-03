@@ -31,4 +31,14 @@ public class SelectionSort {
 
     //Time complexity: O(n^2), where n is the size of the array. This is because we need to go through the array for each item, essentially iterating a 2d matrix.
     //Space complexity: O(1), we are sorting in place.
+
+    /*Testing Code
+    int[] unsorted = {1,3,2,5,7,4,3,2,5};
+        System.out.println("Unsorted:");
+        java.util.Arrays.stream(unsorted).forEach(item -> System.out.print(item + " "));
+        SelectionSort.Sort(unsorted);
+        System.out.println("");
+        System.out.println("Sorted:");
+        java.util.Arrays.stream(unsorted).forEach(item -> System.out.print(item + " "));
+    */
 }
